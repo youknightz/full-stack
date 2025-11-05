@@ -1,8 +1,8 @@
 body {
-    background: rgb(126, 124, 121);
+    background: rgb(131, 128, 123);
 }
 
-#container{
+#container {
     background: white;
     max-width: 400px
     margin: 0 auto;
@@ -11,7 +11,7 @@ body {
     text-align: center;
 }
 
-#container h1 {
+#container {
     color: purple
     /*Espaçamento dentro do elemento*/
     paddind: 15 px;
