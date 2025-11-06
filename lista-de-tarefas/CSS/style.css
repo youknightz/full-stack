@@ -17,7 +17,7 @@ body {
 }
 
 #container h1 {
-    color: blueviolet;
+    color: rgb(122, 9, 9);
     /* Espaçamento dentro do elemento */
     padding: 15px;
     /* Tamanho de texto */
@@ -37,8 +37,8 @@ body {
 }
 
 .btnAdicionar {
-    background: rgb(139, 198, 225);
+    background: rgb(80, 139, 167);
     padding: 7px;
     border: 0;
     border-radius: 8px;
-}
+    }
