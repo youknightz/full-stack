@@ -1,6 +1,13 @@
 // Função em JavaScript
 function adiocionar() {
-    let tarefa = document.getElementById("tarefas...")
+    // Vairiáveis
+    let tarefa = document.getElementById("tarefas...");
+    let lista = document.getElementById("lista");
 
-    console.log(tarefa.value);
+    let item = document.createElement("li");
+    item.textContent = tarefa.value;
+
+    Lista.appendChild(item);
+
+        tarefa.value = "";
 }
