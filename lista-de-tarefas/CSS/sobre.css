@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+body {
+    background: url(../flores-img.webp);
+}
+
+.container {
+    background: #045b70;
+    max-width: 1000px;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.container h1 {
+    text-align: center;
+    padding: 10px;
+    color: rgb(187, 94, 187);
+} 
+
+.links a {
+    padding: 10px;
+    display: block;
+    text-decoration: none;
+    font-size: 22px;
+    color: blue;
+}
+
+.links a:hover {
+    text-decoration: underline;
+    color: purple;
+}
+.container p {
+    color: white;
+}
+.container h2 {
+    color: aqua;
+}
+.container h3 {
+    color: aqua;
+}
+.container li {
+    color: #ffffff;
+}

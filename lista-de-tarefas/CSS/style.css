@@ -1,11 +1,10 @@
 body {
-    background: url('../img/bg-site.jpg') no-repeat;
+    background: url('../fundo-2.jpg') no-repeat;
     background-size: cover;    
-    background: gray;
 }
 
 #container {
-    background: #fff;
+    background: #d4d2d2;
     /* Largura da tela*/
     max-width: 400px;
     /* Centralizar */
@@ -17,7 +16,7 @@ body {
 }
 
 #container h1 {
-    color: rgb(122, 9, 9);
+    color: rgb(173, 65, 65);
     /* Espaçamento dentro do elemento */
     padding: 15px;
     /* Tamanho de texto */
@@ -25,7 +24,7 @@ body {
 }
 
 #tarefa {
-    border: 2px solid #d3d3d3;
+    border: 2px solid #464444;
     padding: 5px;
     border-radius: 5px;
     outline: none;
@@ -33,7 +32,7 @@ body {
 }
 
 #tarefa::placeholder {
-    color: rgb(199, 197, 197);
+    color: rgb(58, 56, 56);
 }
 
 .btnAdicionar {
