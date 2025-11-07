@@ -2,20 +2,20 @@ body {
     background: url('../bmw.jpg') no-repeat;
     background-size: cover;    
      font-family: 'Poppins', sans-serif;
-     background-color: #501515;
+     background-color: #000000;
     color: #140101;
     margin: 0;
     padding: 0;
 }
 header {
   background-color: #4a90e2;
-  color: white;
+  color: rgb(36, 0, 0);
   text-align: center;
   padding: 20px;
 }
 
 #container {
-    background: #d4d2d2;
+    background: #000000;
     /* Largura da tela*/
     max-width: 400px;
     /* Centralizar */
@@ -27,7 +27,7 @@ header {
 }
 
 #container h1 {
-    color: rgb(173, 65, 65);
+    color: rgb(5, 8, 204);
     /* Espaçamento dentro do elemento */
     padding: 15px;
     /* Tamanho de texto */

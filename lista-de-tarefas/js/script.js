@@ -1,2 +1,5 @@
-   // alert("Olá Turma!");
-   console.log("Olá Diogo");
+// Função em JavaScript
+function adiocionar() {
+    alert("Olá Diogo");
+    console.log("Olá Diogo");
+}
