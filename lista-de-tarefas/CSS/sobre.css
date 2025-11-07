@@ -5,11 +5,24 @@
 }
 
 body {
-    background: url(../flores-img.webp);
+    font-family: 'popping', sans-serif;
+    background: url(../sim.png);
+    background-size: cover;
+
+}
+
+header {
+    background: linear-gradient(135deg, #6C63FF, #48C6EF);
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+      border-bottom-left-radius: 30px;
+      border-bottom-right-radius: 30px;
+      box-shadow: 0 4px 15px rgba(0,0,0,0.2);
 }
 
 .container {
-    background: #045b70;
+    background: #1398b9;
     max-width: 1000px;
     margin: 0 auto;
     border-radius: 10px;
@@ -18,7 +31,7 @@ body {
 .container h1 {
     text-align: center;
     padding: 10px;
-    color: rgb(187, 94, 187);
+    color: rgb(29, 138, 7);
 } 
 
 .links a {
