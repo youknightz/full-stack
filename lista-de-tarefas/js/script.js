@@ -1,5 +1,6 @@
 // Função em JavaScript
 function adiocionar() {
-    alert("Olá Diogo");
-    console.log("Olá Diogo");
+    let tarefa = document.getElementById("tarefas...")
+
+    console.log(tarefa.value);
 }
