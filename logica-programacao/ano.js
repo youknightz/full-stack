@@ -12,3 +12,4 @@ document.write("eu nasci em: " + (anoAtual - 16));
 //João, 18
 document.write(" Diego nasceu em: " + (anoAtual - 35));
 document.write(" Ana Julia nasceu em: " + (anoAtual - 14));
+document.write("João nasceu em: "(anoAtual - 18));

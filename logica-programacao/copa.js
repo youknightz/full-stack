@@ -6,4 +6,4 @@ const anoAtual = 2025;
      A ultima foi em 2022
 */
 
-document.write("ultima copa do mundo foi em: " + (anoAtual- 4));
+document.write("ultima copa do mundo foi em: " + (anoAtual- 3));
