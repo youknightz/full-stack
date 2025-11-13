@@ -10,12 +10,12 @@ Crie um programa que peça a nota de um aluno (de 0 a 10) e mostre:
 */
 
 
-let nota = Number(prompt ("Digite sua nota"));
+let nota = Number(prompt("Digite sua nota"));
 
 if (nota >= 6) {
     alert("Aprovado");
 }
-else if (nota >= 4 && nota < 6) {
+else if (nota >= 4 && nota < 5) {
     alert("Recuperação");
 }
 else (nota <= 4) 
