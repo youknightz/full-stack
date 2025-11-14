@@ -7,6 +7,8 @@
   "Esta é a Xª vez que esta frase é exibida na tela."
 */
 
-    for (let i = 1; i <= 10; i++) {
-    console.log(`-Esse é a ${i}ª vez que esta frase é exibida na tela.`);
+const times = ["Botafogo", "São Pulo", "Paulista"];
+
+    for (let i = 0; i <= 2; i++) {
+    console.log("O time é: " + times [i]);
 }
