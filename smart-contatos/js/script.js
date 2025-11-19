@@ -3,19 +3,26 @@ const lista = document.querySelector(".lista");
 const inputNome = document.getElementById("nome");
 const inputEmail = document.getElementById("email");
 const inputTelefone = document.getElementById("telefone");
-
+const listaMsg = document.querySelector(".lista-msg")
 
 form.addEventListener("submit", function (event) {
     event.preventDefault();
     if (inputNome.value == "" || inputEmail.value == "" || inputTelefone.value == "") {
-    alert("Eita, parece que temos um senhor ninguem né?");
+    alert("Digite seus dados.");
     return false;
 }
     console.log("Nome", inputNome.value)
     console.log("Email", inputEmail.value)
     console.log("Telefone", inputTelefone.value)
-});
+})
 
+//Condição, para tirar a li > .lista-msg 
+// se (listaMsg === true) 
+if (listaMsg === true) {
+    listaMsg.remove();
+}
+
+// Criar LI
 const li = document.createElement("li");
 
     li.innerHTML = `
