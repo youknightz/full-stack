@@ -51,11 +51,17 @@ app.post("/times", (req, res) => {
 });
 
     app.delete("/times/:id", (req, res) => {
-        let index = buscarTimePorId(req.params.id);
-        times.splice(index, 1);
+      let id = req.params.id;
+      let index = buscarTimePorId(id);
+      if (index === -1) {
+        return res.status(404).send(`Time com id ${id} não existe`)
+      }
+        
+         times.splice(index, 1);
         res.send(`Time com id ${req.params.id} excluido com sucesso!`);
+      
+     
     });
-
 
 
 // Criando Funções Auxiliares
