@@ -1,13 +1,45 @@
 import express from "express";
 const app = express();
 
+app.use(express.json());
+
+function buscarEnderecoPorId(id) {
+    return cadastros.filter((cadastros) => cadastros.id == id);
+};
+
+function buscarIdEnderecos(id) {
+    return cadastros.findIndex((cadastros) => cadastros.id == id);
+}
+
 app.get("/", (req, res)  => {
     res.send("Olá Node js seu lindo");
 });
 
 app.get("/cadastros", (req, res) => {
-    res.send(cadastros);
+    let index = req
+    res.send(cadastros); 
+
+    res.json(buscarEnderecoPorId(index));
 });
+
+app.post("/cadastros", (req, res) => {
+    res.status(201).send('Endereço cadastrado com sucesso!');
+    cadastros.push(req.body);
+});
+
+app.delete("/cadastros/:id", (req, res) => {
+    let id = req.params.id;
+    let index = buscarIdEnderecos(req.params.id);
+    cadastros.splice(index, 1);
+      if (index === -1)
+    return res.status(404).send(`Nenhum endereço com id ${id} foi encontrado`);
+    res.send(`Endereço com id ${req.params.id} foi excluido com sucesso!`);
+});
+
+
+
+
+
 
 export default app;
 const cadastros = [
